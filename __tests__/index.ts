@@ -9,7 +9,7 @@ describe('Test progress output', () => {
 
     for (var x = 0; x < count; x++) {
       await new Promise(yay => setTimeout(yay, 0));
-      progress.tick();
+      progress();
     }
     inspect.restore();
     expect(inspect.output.length).toBe(100);
@@ -24,7 +24,7 @@ describe('Test progress output', () => {
 
     for (var x = 0; x < count; x++) {
       await new Promise(yay => setTimeout(yay, 0));
-      progress.tick();
+      progress();
     }
     inspect.restore();
     expect(inspect.output.length).toBe(10);
@@ -39,7 +39,7 @@ describe('Test progress output', () => {
 
     for (var x = 0; x < count; x++) {
       await new Promise(yay => setTimeout(yay, 0));
-      progress.tick();
+      progress();
     }
     inspect.restore();
     expect(inspect.output.indexOf('\u001b[1G') !== -1).toBe(true);

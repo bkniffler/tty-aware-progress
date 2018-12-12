@@ -7,5 +7,6 @@
     "moduleResolution": "node",
     "outDir": "lib",
     "rootDir": "src"
-  }
+  },
+  "exclude": ["__tests__"]
 }
