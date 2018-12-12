@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "main": "lib",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bkniffler/tty-aware-progress.git"
+  },
   "dependencies": {
     "progress": "2.0.3"
   },
