@@ -1,6 +1,6 @@
 {
   "name": "tty-aware-progress",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib",
   "license": "MIT",
   "dependencies": {
