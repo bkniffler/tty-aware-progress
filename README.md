@@ -1,4 +1,5 @@
 # tty-aware-progress
+[![Build Status](https://travis-ci.org/bkniffler/tty-aware-progress.png?branch=master)](https://travis-ci.org/bkniffler/tty-aware-progress)
 
 The excellent `progress` package from npm will unfortunately ignore non-TTY environments like CI (circle-ci, travis, etc). This package uses `progress`, but in case of non-TTY, the progress will be output as rolling logs.
 
