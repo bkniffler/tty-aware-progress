@@ -15,6 +15,7 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
+    "prepublish": "yarn compile",
     "compile": "tsc",
     "test": "jest --env=node --colors --coverage test --verbose false --runInBand"
   },
