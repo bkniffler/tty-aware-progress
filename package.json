@@ -1,6 +1,6 @@
 {
   "name": "tty-aware-progress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib",
   "license": "MIT",
   "dependencies": {
@@ -15,8 +15,8 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "prepublish": "yarn compile",
-    "compile": "tsc",
+    "prepublish": "yarn build",
+    "build": "tsc",
     "test": "jest --env=node --colors --coverage test --verbose false --runInBand"
   },
   "jest": {
